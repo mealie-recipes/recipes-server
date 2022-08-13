@@ -26,3 +26,36 @@ GLOBAL OPTIONS:
    --schema value   The schema to use for the server. Currently only used for constructing the urls (default: "http")
 ```
 
+## Installing
+
+Go is required to install/compile on your system.
+
+```shell
+go install github.com/mealie-recipes/recipes-server/cmd/recipes-server@HEAD
+```
+
+## Usage
+
+See available urls at `/api/v1/available`
+
+**Example Response**
+
+```json
+{
+   "recipes": [
+      "http://127.0.0.1:8080/abril.html",
+      "http://127.0.0.1:8080/acouplecooks.html",
+      "http://127.0.0.1:8080/afghankitchenrecipes.html",
+      "http://127.0.0.1:8080/akispetretzikis.html",
+      "http://127.0.0.1:8080/albertheijn.html",
+      "http://127.0.0.1:8080/allrecipescurated.html",
+      "http://127.0.0.1:8080/allrecipesuser.html",
+      "http://127.0.0.1:8080/alltomat.html",
+      "http://127.0.0.1:8080/altonbrown.html",
+      "http://127.0.0.1:8080/amazingribs.html",
+      ...etc
+   ]
+}
+
+
+```
