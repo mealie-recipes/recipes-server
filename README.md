@@ -59,3 +59,7 @@ See available urls at `/api/v1/available`
 
 
 ```
+
+## TODO:
+
+- [ ] Find / Replace all image references with a single image (from unsplash or something) to eliminate network calls on scrapers
